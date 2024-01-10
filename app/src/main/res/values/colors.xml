@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorInProgress">#00FF00</color> <!-- Couleur pour l'état "En cours" -->
+    <color name="colorFinished">#0000FF</color> <!-- Couleur pour l'état "Fini" -->
+    <color name="colorPending">#FFFF00</color> <!-- Couleur pour l'état "En attente" -->
+    <color name="colorAbandoned">#FF0000</color> <!-- Couleur pour l'état "Abandonné" -->
+    <color name="colorPlanned">#FF00FF</color> <!-- Couleur pour l'état "Prévu de jouer" -->
+    <color name="red">#FF0000</color>
+</resources>
+
+
+

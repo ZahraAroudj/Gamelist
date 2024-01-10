@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_options">
+        <item>Accueil</item>
+        <item>Top</item>
+        <item>Communauté</item>
+        <item>Compte</item>
+        <item>Paramètre</item>
+        <item>Connexion</item>
+    </string-array>
+</resources>

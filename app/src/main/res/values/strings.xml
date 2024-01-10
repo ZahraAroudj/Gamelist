@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gamelist</string>
+    <string name="category_in_progress_text1">En cours </string>
+    <string name="category_in_progress_text2">Fini </string>
+    <string name="category_in_progress_text3">En Attente </string>
+    <string name="category_in_progress_text4">Abandonner </string>
+    <string name="category_in_progress_text5">Prévu de Jouer </string>
+
+    <string-array name="console_options">
+        <item>PlayStation</item>
+        <item>Xbox</item>
+        <item>Nintendo Switch</item>
+    </string-array>
+</resources>
