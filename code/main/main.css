@@ -1,0 +1,19 @@
+/* Réinitialisation de certaines valeurs par défaut du navigateur pour une base propre */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de fond du corps de la page */
+body {
+    background-color: #0499fc; 
+    color: #FFA500; 
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+}

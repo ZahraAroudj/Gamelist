@@ -1,0 +1,10 @@
+/* Style des liens dans le pied de page */
+footer  {
+    position: fixed; /* Fixe le pied de page */
+    bottom: 0; /* Aligne le pied de page en bas de la fenêtre du navigateur */
+    width: 100%; /* Largeur totale de la page */
+    background-color: #f7b604; /* Couleur de fond bleu foncé */
+    color: #FFFFFF; /* Couleur du texte blanc */
+    text-align: center; /* Centre le texte */
+    padding: 10px; /* Espace intérieur */
+}

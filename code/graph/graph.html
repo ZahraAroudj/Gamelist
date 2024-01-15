@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main/sitevitrine.css"> 
+    <link rel="stylesheet" href="../header/nav.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="graph.css">
+    <link rel="stylesheet" href="../main/main.css">
+    <title>Graphisme</title>
+    
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("../header/header.html"); 
+        $("#footer").load("../footer/footer.html");
+        });
+      
+    </script> 
+
+    <body>
+        
+        
+        <div id="header"></div>
+
+        <div class="button-container">
+            <a class="orange-button" href="graph.html">Graphique</a>
+            <a class="orange-button" href="conception.html">Conception</a>
+            <a class="orange-button" href="maquette.html">Maquette</a>
+        </div>
+
+        <section class="colors">
+            <h2>Couleurs</h2>
+            <div class="color-box primary-color"></div>
+            <div class="color-box secondary-color"></div>
+            <div class="color-box accent-color"></div>
+        </section>
+    
+        <section class="typography">
+            <h2>Typographie</h2>
+           <p>Phoenix Gaming: Pour les titres </p> 
+           <p>Lexend : Pour le texte en général</p> 
+            <p>Retro Gaming : Lien </p>
+
+        </section>
+    
+        <section class="logo">
+            <h2>Logo</h2>
+            <img src="../ressource/gl.png" alt="Logo du Projet">
+        </section>
+      
+        <h2> Arborescence</h2>
+    
+        <div class="image-container">
+            
+            <img src="../ressource/Screenshot 2023-08-22 093205.jpg" alt="Image" class="fullscreen-image" id="fullscreenImage">
+        </div>
+
+        <h2> MCD</h2>
+        <div class="image-container">
+            <img src="../ressource/mcd.jpg" alt="Image" class="fullscreen-image" id="fullscreenImage1">
+        </div>
+        
+        <h2>MLD</h2>
+        <div class="image-container">
+            <img src="../ressource/MLD.jpg" alt="Image" class="fullscreen-image" id="fullscreenImage2">
+        </div>
+    <script src="graph.js"></script>
+
+
+
+
+    <div id="footer"></div>
+   
+</body>
+</html>

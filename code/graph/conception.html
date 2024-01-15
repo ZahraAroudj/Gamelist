@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main/sitevitrine.css"> 
+    <link rel="stylesheet" href="../header/nav.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="graph.css">
+    <link rel="stylesheet" href="../main/main.css">
+    <link rel="stylesheet" href="conception.css">
+    <title>Graphisme</title>
+    
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("../header/header.html"); 
+        $("#footer").load("../footer/footer.html");
+        });
+      
+    </script> 
+
+    <body>
+        
+        
+        <div id="header"></div>
+
+      
+        <div class="button-container">
+            <a class="orange-button" href="graph.html">Graphique</a>
+            <a class="orange-button" href="conception.html">Conception</a>
+            <a class="orange-button" href="maquette.html">Maquette</a>
+        </div>
+        <section> 
+        <div class="slideshow-container">
+            <div class="slide">
+                <h2>Use Case</h2>
+                <img src="../ressource/use case.jpg" alt="Image 1" class="zoomImage">
+            </div>
+            <div class="slide">
+                <h2>Diagramme d'Activité :Ajouter un Compte</h2>
+                <img src="../ressource/ajouter un compte.jpg" alt="Image 2" class="zoomImage">
+            </div>
+            <div class="slide">
+                <h2>Diagramme de Séquence : Ajouter un Compte</h2>
+                <img src="../ressource/ajouter.jpg" alt="Image 3" class="zoomImage">
+            </div>
+            <div class="slide">
+                <h2>Diagramme d'activité :Modifier l'Article</h2>
+                <img src="../ressource/modifier article .jpg" alt="Image 3" class="zoomImage">
+            </div>
+            <div class="slide">
+                <h2>Diagramme de Séquence : Modifier l'Article</h2>
+                <img src="../ressource/modifier.jpg" alt="Image 3" class="zoomImage">
+            </div>
+           
+        </div>
+        
+        <button id="prevBtn" class="control-button" onclick="prevSlide()">Précédent</button>
+        <button id="nextBtn" class="control-button" onclick="nextSlide()">Suivant</button>
+    
+        <script src="conception.js"></script>
+
+    </section>
+
+
+    <div id="footer"></div>
+   
+</body>
+</html>

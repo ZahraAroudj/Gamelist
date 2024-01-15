@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Logo */
+
+.navbar-title {
+    color: #fff;
+    font-size: 80px;
+    margin: 0;
+    flex-grow: 1; /* Pour pousser les éléments vers le milieu */
+    text-align: center; /* Pour centrer le texte horizontalement */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff9900; /* Couleur orange au survol */
+}
+
+.nav-links li a::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #ff9900; /* Couleur orange de l'animation */
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.nav-links li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
